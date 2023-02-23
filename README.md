@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis was to find out if applicants will succeed if funded through the use of machine learning and neural networks. This involved compiling, training, and evaluating the neural network model for its accuracy and loss of data. The code for this can be found in the [AlphabetSoupCharity.ipynb]() file. Attempts were then made to optimize this model further through various means, as can be found in the [AlphabetSoupCharity_Optimization]() file. Results will be described below.
+The purpose of this analysis was to find out if applicants will succeed if funded through the use of machine learning and neural networks. This involved compiling, training, and evaluating the neural network model for its accuracy and loss of data. The code for this can be found in the [AlphabetSoupCharity.ipynb](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) file. Attempts were then made to optimize this model further through various means, as can be found in the [AlphabetSoupCharity_Optimization.ipynb](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb) file. Results will be described below.
 
 ## Results
 
@@ -18,22 +18,22 @@ The purpose of this analysis was to find out if applicants will succeed if funde
 During the optimization it was desired for the model to have an accuracy of at least 75%. Four attempts were made (NOTE: Images display the accuracy of each optimization attempt):
 
 
-![Optimization1]()
+![Optimization1](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/Images/optimization1.png)
 
 1. Increasing the number of neurons from the original `80`,`30` to `100`,`50`.
 
 
-![Optimization2]()
+![Optimization2](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/Images/optimization2.png)
 
 2. Adding an extra hidden layer to the model (while still keeping the increased number of neurons but having the added hidden layer have `20` neurons).
 
 
-![Optimization3]()
+![Optimization3](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/Images/optimization3.png)
 
 3. Changing the activation function for the hidden layers from `relu` to `tanh` (while still keeping the extra hidden layer as well as the increased number of neurons).
 
 
-![Optimization4]()
+![Optimization4](https://github.com/stwpf01/Neural_Network_Charity_Analysis/blob/main/Images/optimization4.png)
 
 4. Lowering the number of neurons to `80`,`30`,`10`, keeping the extra hidden layer, but switching the activation funtions back to `relu`.
 
